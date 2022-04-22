@@ -27,8 +27,8 @@ const handledonChange =(event)=>{
     <h1>{props.handing}</h1>
     <div className="mb-3"></div>
       <textarea className="form-control" value={text} onChange={handledonChange} id="mybox" row="8"></textarea>
-   <button className='btn btn.primary'onClick={handledclick}>convert to upper case</button>
-   <button className='btn btn.danger'onClick={handledclickon}>convert to lower case</button>
+   <button className='btn btn.primary mx-1'onClick={handledclick}>convert to upper case</button>
+   <button className='btn btn.danger mx-1'onClick={handledclickon}>convert to lower case</button>
     </div>
     <div className='container my-3'>
       <h1>your text sumamry</h1>
