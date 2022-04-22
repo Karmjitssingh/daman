@@ -32,8 +32,8 @@ const handledonChange =(event)=>{
     </div>
     <div className='container my-3'>
       <h1>your text sumamry</h1>
-      <p> {text.split(" ").length } word and {text.length} Chracter</p>
-      <p>{0.008*text.split("").length} Minutes Read</p>
+      <p> {text.trimStart().length } word and {text.length} Chracter</p>
+      <p>{0.008*text.trimEnd().length} Minutes Read</p>
       <h1>Preview</h1>
       <p> {text}</p>
     </div>
